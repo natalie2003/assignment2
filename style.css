@@ -1,0 +1,17 @@
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+ul.nav li {
+    float: left;
+}
+ul.nav li a {
+    display: block;
+    padding: 8px;
+    background-color: aqua;
+    text-decoration: none;
+    
+}
