@@ -7,16 +7,23 @@ ul.nav {
     padding: 0;
     overflow: hidden;
     text-decoration: none;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: uppercase;
+    background-color: #CECECE;
+    font-family: 'ZCOOL XiaoWei', serif;
 }
-ul.nav li {
+
+.nav li{
     float: left;
 }
-ul.nav li a {
-    display: block;
+.navLiRight{
+    float: right;
     padding: 8px;
-    background-color: #CECECE;
-    text-decoration: none;
-    font-family: 'ZCOOL XiaoWei', serif;
     line-height: 50px;
-    
 }
+.navHome, .navLi{
+    padding: 8px;
+    line-height: 50px;
+} 
