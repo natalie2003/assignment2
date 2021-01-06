@@ -19,47 +19,64 @@
             <li class="navLiRight" style="float:right"><a href ="login.html">Log In</a></li>
             <li class="navLiRight" style="float:right"><a href ="contact.html">Contact</a></li>
         </ul>
-        <br>
-        <form>
-            <div class="firstlastname">
-
-            <label for="firstName" class="form-label">First name</label> 
-            <input type="text" class="form-control" id="firstName" placeholder value required>
-            <div class="invalid-feedback">Valid First name is required</div>
-            
-            <label for="lastName" class="form-label">Last name</label>
-            <input type="text" class="form-control" id="lastName" placeholder value required>
-            <div class="invalid-feedback">Valid Last name is required</div>
-            </div>
-            
-
-            <label for="userName" class="form-label">Username</label>
-            <input type="text" class="form-control" id="userName" placeholder ="Username" required>
-            <div class="invalid-feedback">Username is required</div>
-
-            <label for="contactNo" class="form-label">Contact No</label>
-            <input type="text" class="form-control" id="contactNo" placeholder value required>
-            <div class="invalid-feedback">Contact No is required</div>
-            
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
-            <div class="invalid-feedback">Please enter a valid email address for us to get back to you</div>
-
-            <label for="country" class="form-label">Country</label>
-            <select class="form-select" id="countrylocation" required>
-                <option value="Asia">Singapore</option>
-                <option value="NorthAmerica">Canada</option>
-                <option value="SouthAmerica">Brazil</option>
-                <option value="Europe">Germany</option>
-                <option value="Africa"></option>
-                <option value="Australia">Melbourne</option>
-                <option value="Antartica"></option>
-            </select>
-            <div class="invalid-feedback">Please select a country</div>
-
-            <input type="submit" value="Submit">
-        </form>
         
+        <br>
+
+        <div class="form">
+            <h1>Connect with us</h1>
+            <p>We would love to respond to your queries and help you succeed. Feel free to get in touch with us</p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Send your request</h3>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Natalie Long">
+                            </div>
+                            <div class="input-group">
+                                <label>Contact No</label>
+                                <input type="text" placeholder="+65 9876 9876">
+                            </div>
+                            
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="you@example.com">
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" placeholder="Exercise enquiry">
+                            </div>
+                            
+                        </div>
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Any message for us"> </textarea>
+                        
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h3>Reach us</h3>
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>contactus@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+65 9876 9876</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>Bla bla bla</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+        </div>
 
     </body>
 </html>
