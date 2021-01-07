@@ -54,15 +54,21 @@ Media
 The photos used in this site were obtained from
 
 - Navigation bar
-    https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg3.goodfon.com%2Fwallpaper%2Fbig%2Fd%2F66%2Fmuscular-man-back.jpg&imgrefurl=https%3A%2F%2Fwww.goodfon.com%2Fwallpaper%2Fmuscular-man-back.html&tbnid=F6RyegyLJrJO5M&vet=10CAUQxiAoA2oXChMIuIGHm46H7gIVAAAAAB0AAAAAEAc..i&docid=C_uhkQQCx29oBM&w=596&h=380&itg=1&q=fit%20body%20pictures%20hd&ved=0CAUQxiAoA2oXChMIuIGHm46H7gIVAAAAAB0AAAAAEAc
+    https://img3.goodfon.com/wallpaper/big/d/66/muscular-man-back.jpg
 
 - Andriod App
   https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbvausa.com%2Fdigital-banking-services%2Fmobile-banking%2Fdownload-app.html&psig=AOvVaw2pxl-BZgwCP_i86npmSPoa&ust=1610013809388000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDui_iRh-4CFQAAAAAdAAAAABAD
 
 - Apple App
-  https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.slideshare.net%2FCocoaHeadsFrance%2Fexec-summary-of-the-apple-app-store-marketing-and-advertising-guidelines-for-developers&psig=AOvVaw0TfePFsAA--emVt-PxIkXM&ust=1610017809018000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCMDX3e-Vh-4CFQAAAAAdAAAAABAD
+  https://image.slidesharecdn.com/execsummaryoftheappleappstoremarketingandadvertisingguidelinesfordevelopers-121113073823-phpapp02/95/exec-summary-of-the-apple-app-store-marketing-and-advertising-guidelines-for-developers-10-638.jpg?cb=1352792398
 
-
-
+- Workout
+  - https://wallpaperaccess.com/full/1108004.jpg
+  - https://c4.wallpaperflare.com/wallpaper/150/221/189/man-back-workout-bodybuilding-wallpaper-preview.jpg
+  - https://michaelhermann.com.au/wp-content/uploads/2018/03/wallpaper.wiki-HD-Free-Exercise-Backgrounds-PIC-WPB005918.jpg
+  - https://generationiron.com/wp-content/uploads/2019/02/Generation-Iron-Exercise-Guide-Plank.jpg
+- Exercise
+  - https://www.kindpng.com/picc/m/213-2132839_body-leg-human-anatomy-chest-human-human-body.png
+  
 Acknowledgements
 I received inspiration for this project from the app Keep Trainer which is an app that comprises of diet and exercise for users to do home workouts.
