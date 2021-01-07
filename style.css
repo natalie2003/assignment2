@@ -20,6 +20,9 @@ div.name{
     background-color: black;
     
 }
+div.social-media{
+    float: right;
+}
 .name h1{
     color: white;
 }
@@ -33,7 +36,103 @@ div.name{
     list-style-type: none;
 }
 
-ul.nav {
+/* navigation bar */
+#navbar{
+    overflow: hidden;
+    background-color: #CECECE;
+}
+
+.nav li a{
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    padding: 8px;
+    color: black;
+
+}
+.nav li:hover{
+    background-color: #aca6a6;
+    border-radius: 5px;
+    /* background-clip: padding-box; */
+    
+}
+ul.nav{
+    margin: 0;
+    padding: 0;
+}
+#navbar li.navLi{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'ZCOOL XiaoWei', serif;
+    list-style-type: none;
+}
+
+#navbar li.navLiRight{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'ZCOOL XiaoWei', serif;
+    list-style-type: none;
+}
+.sub-menu{
+    display: none; 
+    
+}
+.nav li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: #CECECE;
+    margin-top: 15px;
+    margin-left: -15px;
+    color: black;
+    
+}
+.nav li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+}
+.nav li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #888181;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.nav li:hover .sub-menu ul li a:hover{
+    color: #888181;
+}
+
+
+/* content */
+.content{
+    padding: 16px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content{
+    padding-top: 60px;
+}
+
+/* ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -57,7 +156,7 @@ ul.nav {
     text-decoration: none;
     padding: 8px;
     line-height: 50px;
-}
+} */
 
 /*Contact html*/
 .form{
