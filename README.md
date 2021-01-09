@@ -69,6 +69,8 @@ The photos used in this site were obtained from
   - https://generationiron.com/wp-content/uploads/2019/02/Generation-Iron-Exercise-Guide-Plank.jpg
 - Exercise
   - https://www.kindpng.com/picc/m/213-2132839_body-leg-human-anatomy-chest-human-human-body.png
-  
+
+Videos
+- 
 Acknowledgements
 I received inspiration for this project from the app Keep Trainer which is an app that comprises of diet and exercise for users to do home workouts.

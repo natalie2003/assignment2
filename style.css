@@ -38,101 +38,7 @@ div.social-media{
     list-style-type: none;
 }
 
-/* navigation bar */
-#navbar{
-    overflow: hidden;
-    background-color: #CECECE;
-}
 
-.nav li a{
-    text-decoration: none;
-    list-style-type: none;
-    display: block;
-    padding: 8px;
-    color: black;
-
-}
-.nav li:hover{
-    background-color: #aca6a6;
-    border-radius: 5px;
-    /* background-clip: padding-box; */
-    
-}
-ul.nav{
-    margin: 0;
-    padding: 0;
-}
-#navbar li.navLi{
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'ZCOOL XiaoWei', serif;
-    list-style-type: none;
-}
-
-#navbar li.navLiRight{
-    float: right;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'ZCOOL XiaoWei', serif;
-    list-style-type: none;
-}
-.sub-menu{
-    display: none; 
-    
-}
-.nav li:hover .sub-menu{
-    display: block;
-    position: absolute;
-    background: #CECECE;
-    margin-top: 15px;
-    margin-left: -15px;
-    color: black;
-    
-}
-.nav li:hover .sub-menu ul{
-    display: block;
-    margin: 10px;
-    text-align: left;
-    list-style-type: none;
-    text-decoration: none;
-}
-.nav li:hover .sub-menu ul li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #888181;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-}
-
-.nav li:hover .sub-menu ul li a:hover{
-    color: #888181;
-}
-
-
-/* content */
-.content{
-    padding: 16px;
-}
-
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky + .content{
-    padding-top: 60px;
-}
 
 /* ul.nav {
     list-style-type: none;
@@ -192,34 +98,34 @@ h1{
 .form p{
     margin-bottom: 20px;
 }
-.input-row{
+.form .input-row{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.input-row .input-group{
+.form .input-row .input-group{
     flex-basis: 45%;
 }
-input{
+.form input{
     width: 100%;
     border: none;
     border-bottom: 1px solid black;
     outline: none;
     padding-bottom: 5px;
 }
-textarea{
+.form textarea{
     width: 100%;
     border-bottom: 1px solid black;
     outline: none;
     padding-bottom: 10px;
     box-sizing: border-box;
 }
-label{
+.form label{
     margin-bottom: 6px;
     display: block;
     
 }
-button{
+.form button{
     width: 100px;
     border: none;
     outline: none;
@@ -229,20 +135,20 @@ button{
     color: #aca6a6;
     box-shadow: 0px 5px 15px 0px rgba(245, 217, 142, 0.363);
 }
-.contact-left h3{
+.form .contact-left h3{
     font-weight: 600;
     margin-bottom: 30px;
 }
-.contact-right h3{
+.form .contact-right h3{
     font-weight: 600;
     margin-bottom: 30px;
 }
 
-tr td:first-child{
+.form tr td:first-child{
     padding-right: 20px;
 }
 
-tr td{
+.form tr td{
     padding-top: 20px;
 }
 
@@ -372,4 +278,217 @@ div.thirdsector{
     padding: 0;
     font-size: 20px;
     color: white;
+}
+
+/* trainer.html */
+
+.trainer-container{
+    width: 960px;
+    min-height: 500px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.trainer-box{
+    position: relative;
+    width: 300px;
+    height: 600px;
+    /* background: white; */
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 20px;
+}
+.trainer-box .imgBox{
+    position: relative;
+}
+
+.trainer-box .imgBox img{
+    max-width: 100%;
+}
+/* login.html */
+.login{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: white;
+    padding: 5px;
+    overflow: hidden;
+}
+.login-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #CECECE;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+.login .input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.login .input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #CECECE;
+    outline: none;
+    background: transparent;
+
+}
+
+.login .submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.login .checkbox{
+    margin: 30px 10px 30px 0;
+}
+
+.login span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+
+#register{
+    left: 450px;
+}
+
+/* navigation bar */
+#navbar{
+    overflow: hidden;
+    background-color: #CECECE;
+}
+
+.nav li a{
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    padding: 8px;
+    color: black;
+
+}
+.nav li:hover{
+    background-color: #aca6a6;
+    border-radius: 5px;
+    /* background-clip: padding-box; */
+    
+}
+ul.nav{
+    margin: 0;
+    padding: 0;
+}
+#navbar li.navLi{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'ZCOOL XiaoWei', serif;
+    list-style-type: none;
+}
+
+#navbar li.navLiRight{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'ZCOOL XiaoWei', serif;
+    list-style-type: none;
+}
+.sub-menu{
+    display: none; 
+    
+}
+.nav li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: #CECECE;
+    margin-top: 15px;
+    margin-left: -15px;
+    color: black;
+    
+}
+.nav li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+}
+.nav li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #888181;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.nav li:hover .sub-menu ul li a:hover{
+    color: #888181;
+}
+
+
+/* content */
+.content{
+    padding: 16px;
+}
+
+.sticky{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content{
+    padding-top: 60px;
 }
