@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="normalize.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+        <title>Login page</title>
     </head>
     <body>
         <div class="name">
@@ -47,16 +48,24 @@
         
         <div class="login">
             <div class="login-box">
-                <div class="login-row">
-                    <div class="login-group">
-                        <label>SIGN IN</label>
-                    </div>  
-                    <div class="login-group">
-                        <label>SIGN UP</label>
-                    </div>       
-                </div>
-
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">LOGIN</button>
+                <button type="button" class="toggle-btn" onclick="register()">REGISTER</button>
             </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="checkbox"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="checkbox"><span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
         </div>
         <script src="script.js"></script>
     </body>
