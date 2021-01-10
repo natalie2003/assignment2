@@ -4,6 +4,8 @@ Project's Name
 
 This is a website which offers customised diet recipes and workouts for people. An app can also be created to make it convenient for people to gain access to the diets and workouts
 
+<!-- github link -->
+https://github.com/natalie2003/assignment2.git
 <!-- Design Process -->
 
 This website is focusing on people that would like to workout and diet at home. The exercises that will be listed are exercises that can be done at home. 
