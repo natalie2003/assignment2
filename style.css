@@ -1,7 +1,51 @@
-@media (min-width: 576px){
-    
+@media screen and (max-width: 576px){
+    .nav-toggle-btn{
+        display: flex;
+    }
+    .navbar-links{
+        display: none;
+    }
+
+    .content .firstsector .apps{
+        display: flex;
+        flex-direction: column;
+    }
+    /* exercise and diet html */
+    .box-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .box-container .box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    /* contact form */
+    .contact-box{
+        flex-direction: column;
+    }
+    .form .input-row{
+        flex-direction: column;
+    }
 }
 
+@media (max-width: 768px){
+    /* contact form */
+    .contact-box{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 992px){
+
+}
+
+@Media (min-width: 1200px){
+
+}
 body{
     background: black;
     color: white;
@@ -32,6 +76,56 @@ div.social-media{
     list-style-type: none;
 }
 
+/*Index html*/
+.firstsector{
+    background-image: url('pictures/firstsector.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.apps li{
+    width: 300px;
+    height: 155px;
+    border-radius: 20px;
+    margin:65px;
+    list-style-type: none;
+    text-align: center;
+}
+
+li.andriodapp{
+    background-color: black;
+    color: white;
+}
+
+li.appleapp{
+    background-color: white;
+    color: black;
+}
+
+
+.apps img{
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+div.secondsector{
+    background-color: white;
+}
+
+div.thirdsector{
+    background-color: black;
+}
 
 /*Contact html*/
 .form{
@@ -120,57 +214,8 @@ h1{
 }
 
 
-/*Index html*/
-.firstsector{
-    background-image: url('pictures/firstsector.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.apps{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-}
-.apps li{
-    width: 300px;
-    height: 155px;
-    border-radius: 20px;
-    margin:65px;
-    list-style-type: none;
-    text-align: center;
-}
-
-li.andriodapp{
-    background-color: black;
-    color: white;
-}
-
-li.appleapp{
-    background-color: white;
-    color: black;
-}
-
-
-.apps img{
-    width: 300px;
-    height: 100px;
-    object-fit: cover;
-}
-
-
-
-div.secondsector{
-    background-color: white;
-}
-
-div.thirdsector{
-    background-color: black;
-}
-/* exercise.html */
+/* exercise.html and diet.html */
 
 .box-container{
     width: 660px;
@@ -376,6 +421,7 @@ div.thirdsector{
 ul.nav{
     margin: 0;
     padding: 0;
+    z-index: 1;
 }
 #navbar li.navLi{
     float: left;
@@ -402,6 +448,7 @@ ul.nav{
 }
 .sub-menu{
     display: none; 
+    z-index: 1;
     
 }
 .nav li:hover .sub-menu{
@@ -433,6 +480,23 @@ ul.nav{
     color: #888181;
 }
 
+.nav-toggle-btn{
+    position: absolute;
+    top: 7.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.nav-toggle-btn .bar{
+    height: 3px;
+    width: 100%;
+    background-color:white;
+    border-radius: 10px;
+
+}
 
 /* content */
 .content{
@@ -448,4 +512,11 @@ ul.nav{
 
 .sticky + .content{
     padding-top: 60px;
+}
+
+.member-details{
+    color: white;
+}
+#member-info{
+    color: white;
 }
