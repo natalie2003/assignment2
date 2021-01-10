@@ -1,18 +1,16 @@
 # assignment2
 
 Project's Name
-<!--One or two paragraphs providing an overview of your project. Tell us about your project.
 
-Essentially, this part is your sales pitch.-->
+This is a website which offers customised diet recipes and workouts for people. An app can also be created to make it convenient for people to gain access to the diets and workouts
 
-Design Process
-<!-- Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+<!-- Design Process -->
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+This website is focusing on people that would like to workout and diet at home. The exercises that will be listed are exercises that can be done at home. 
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.-->
+As a working adult, I would want to start working out so that I can get in shape. This website would be able to offer exercises that can be done at home so that they are able to spend minimal travelling time.
 
+Adobe XD url: [ID_10204398B_Long Hui Ying Natalie_Assg2_wireframe](https://xd.adobe.com/view/71640d3b-f978-46b4-a949-bcb57f665319-2437/)
 
 Features
 <!-- In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -24,31 +22,40 @@ In addition, you may also use this section to discuss plans for additional featu
 
 Features Left to Implement
 Another feature idea-->
+<!-- Existing Features -->
+Diet, exercise and workout page shows the description of various diet and workouts available.
+Trainer page shows the online trainers to offer help
+Contact page allows users to fill in their particulars and send any queries they have.
+Log in page allows users to fill in their username and password to login or register if they are new
+Member page lists their details and the weather
+
+<!-- Features left to implement -->
+Data of diets and workouts that allows users to be able to exercise
+Allow details from contact page to be sent to an email
+To be able to remove login page after logging in and for member page to only appear after logging in
 
 Technologies used
-<!-- In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
+The project uses Font Awesome Web Application icons
+https://www.w3schools.com/icons/fontawesome_icons_webapp.asp
+It was used to have the icon of a cloud for weather
 JQuery
-The project uses JQuery to simplify DOM manipulation.-->
+The project uses JQuery to simplify DOM manipulation. 
 
 Testing
-<!-- For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 Contact form:
-Go to the "Contact Us" page
+Go to the "Contact" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.-->
 
 
-Credits
-<!-- Content
-The text for section Y was copied from the Wikipedia article Z-->
+
+Pressing the login button without entering any value works after logging in once
+
+
+
+<!-- Credits -->
 
 Media
 The photos used in this site were obtained from
@@ -70,7 +77,10 @@ The photos used in this site were obtained from
 - Exercise
   - https://www.kindpng.com/picc/m/213-2132839_body-leg-human-anatomy-chest-human-human-body.png
 
-Videos
-- 
-Acknowledgements
+youtube videos
+- https://www.youtube.com/watch?v=At4B7A4GOPg
+- https://www.youtube.com/watch?v=wHFflWvii3M&t=913s
+- https://www.youtube.com/watch?v=L5WWrGMsnpw
+
+<!-- Acknowledgements -->
 I received inspiration for this project from the app Keep Trainer which is an app that comprises of diet and exercise for users to do home workouts.

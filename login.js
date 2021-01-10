@@ -31,4 +31,16 @@ function Member(username, email, password){
     this.email = email;
     this.password = password;
     this.datejoin = Date.now;
-  }
+}
+function displayMember(){
+    let memberInfo = "";
+    if(localStorage.getItem(memberInfo)){
+        memberInfo += `<tr><td>${member.username}</td><td>${member.email}</td><td>${member.datejoin}</td></tr>`;
+        $('#member-info').html(memberInfo);
+    }
+    else{
+        $('#member-info').html('Not a member at the moment');
+    }
+    
+
+}

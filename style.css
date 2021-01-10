@@ -397,7 +397,10 @@ h1{
 #register{
     left: 450px;
 }
-
+/* member.html */
+#member-info{
+    color: white;
+}
 /* navigation bar */
 #navbar{
     overflow: hidden;
